@@ -18,8 +18,8 @@ A lot of the styles wanted to mesh together and make the page look confined. Whi
 
 ## Site Images
 
-![alt text](assets/images/code-refractor.screenshot)
-![alt text](assets/images/code-refractor.screenshot2)
+![alt text](./assets/images/code-refractor.screenshot)
+![alt text](./assets/images/code-refractor.screenshot2)
 
 ## Authors
 
