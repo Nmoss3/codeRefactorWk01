@@ -1,3 +1,4 @@
+/** leave alone */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -23,6 +24,7 @@ body {
 /*changed from div to nav clarifying styles for renamed block */
 .header h1 nav {
   color: #d9dcd6;
+  margin: 0;
 }
 /*changed from div to nav clarifying styles for renamed block */
 .header nav {
@@ -35,6 +37,7 @@ body {
 
 .header nav ul {
   list-style-type: none;
+  align-items: center;
 }
 /*changed from div to nav clarifying styles for renamed block */
 .header div ul li {
@@ -58,6 +61,7 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
 }
 
 .float-left {
