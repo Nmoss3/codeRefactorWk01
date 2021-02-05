@@ -1,21 +1,21 @@
-/* Default style for whole page */
-
+/*  Default page style  style */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
-/*Style of the body*/
+/* Body style */
 body {
   background-color: #d9dcd6;
 }
 
-/*Header Navigation style (start)*/
+/* Header and navigation styles start */
 header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial,
-    sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
 }
@@ -45,22 +45,22 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-/*Header and Nav style end*/
+/* Header and navigation styles end */
 
-/*link styles start*/
+/* Link style */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/*paragraph style*/
+/* Paragraph styles */
 p {
   font-size: 16px;
 }
 
-/*hero style*/
+/* Hero style  */
 .hero {
-  height: 800px;
+  height: 500px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/digital-marketing-meeting.jpg");
@@ -68,7 +68,7 @@ p {
   background-position: center;
 }
 
-/*float class styles*/
+/* Utility class styles */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -78,16 +78,16 @@ p {
   float: right;
   margin-left: 25px;
 }
-/*end of float class styles*/
+/* End of utility class styles */
 
-/*content style*/
+/* Content style */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-/*Services style start*/
+/* Services article styles start */
 .services {
   margin-bottom: 20px;
   padding: 50px;
@@ -105,9 +105,9 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/*end of services style*/
+/* Services article styles end */
 
-/*benefits style start*/
+/* Benefits section styles start */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -134,17 +134,18 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-/*end of benefits style*/
+/* Benefits section styles end */
 
-/*footer style start*/
+/* Footer styles start */
 .footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .footer h2 {
   font-size: 20px;
 }
-/*end of footer style*/
+/* Footer styles end */
